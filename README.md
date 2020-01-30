@@ -21,6 +21,24 @@ Steps to run applications:rocket: :
     > `http://localhost:3000/api/get-nearby-scooters/:noOfScooters/:latitude/:longitude/:radiusMeters`
 
          Example: http://localhost:3000/api/get-nearby-scooters/6/1.2765707/103.845848/6000
+         
+         Response format:
+         {
+               "type":"ScooterCollection",
+               "features":[
+                  {
+                     "type":"Scooter",
+                     "geometry":{
+                        "type":"Point",
+                        "coordinates":[
+                           103.845848,
+                           1.2765707
+                        ]
+                     }
+                  }
+                  ...
+               ]
+            }
 
 5)  Any problems, suggestions?
     > vipul.zambare1993@gmail.com
