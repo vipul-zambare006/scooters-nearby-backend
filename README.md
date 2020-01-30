@@ -15,7 +15,7 @@ Steps to run applications:rocket: :
 
     > `http://localhost:3000`
 
-        ![Add scooters](./add-scooter-ui.png)
+        ![Add scooters](/add-scooter-ui.png)
 
 4)  API to get nearby-scooters:
 
