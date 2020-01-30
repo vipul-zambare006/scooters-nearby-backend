@@ -1,6 +1,17 @@
 # Rest api for fetching nearby scooters using Node, ExpressJs and MongoDB:
 
-Steps to run applications:rocket: :
+## Prerequisite
+Mongodb setup is required to run this app:
+
+[MongoDB for windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows)
+
+[MongoDB for Mac](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+
+
+[MongoDB for Linux](https://docs.mongodb.com/manual/administration/install-on-linux/)
+
+
+## Steps to run applications:rocket:
 
 1.  Start node application and create web server at `localhost:3000`
 
@@ -40,5 +51,5 @@ Steps to run applications:rocket: :
                ]
             }
 
-5)  Any problems, suggestions?
+## Any problems, suggestions?
     > vipul.zambare1993@gmail.com
