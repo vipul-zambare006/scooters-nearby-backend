@@ -1,0 +1,29 @@
+<% include partials/_header %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 offset-md-3">
+      <div class="card">
+        <div class="card-body">
+          <form action="api/add/scooter" method="post">
+            <div class="form-group">
+              <input class="form-control" type="text" name="latitude" placeholder="lat">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="longitude" placeholder="long">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="isActive" value="true" placeholder="active">
+            </div>
+            <button class="btn btn-primary" type="submit">
+              Add scooter
+            </button>
+            <button class="btn btn-secondary" type="reset">
+              Clear
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
