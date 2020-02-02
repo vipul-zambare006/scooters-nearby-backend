@@ -12,24 +12,26 @@ Mongodb setup is required to run this app:
 
 
 ## Steps to run applications:rocket:
+1. Checkout project install node_modules
+    > npm install
 
-1.  Start mongodb service (refer above links)
+2. Start mongodb service (refer above links)
 
-2.  Start node application and create web server at `localhost:3000`
+3.  Start node application which will start web server at `localhost:3000`
 
     > npm start
 
-3.  To insert sample locations points of scooters
+4.  To insert sample locations points of scooters
     call api:
 
     > `http://localhost:3000/api/create-test-locations`
 
-4.  UI interface to create more locations based on your preference:
+5.  UI interface to create more locations based on your preference:
 
     > `http://localhost:3000`
     > ![](add-scooter-ui.png)
 
-5.  API to get nearby-scooters:
+6.  API to get nearby-scooters:
 
     > `http://localhost:3000/api/get-nearby-scooters/:noOfScooters/:latitude/:longitude/:radiusMeters`
 
